@@ -5,7 +5,7 @@ This is the main of the ML method.
 !pip install -q --upgrade git+https://github.com/karinvangarderen/tm10007_project.git
 
 # General packages
-import numpy as np
+import numpy as np 
 import matplotlib.pyplot as plt
 import time
 import pandas as pd
@@ -26,7 +26,7 @@ from sklearn.ensemble import RandomForestClassifier
 # Data loading function
 from brats.load_data import load_data
 
-# Some functions we will use here
+# Some functions we will use
 
 # Preprocessing - Handling missing data 
 def drop_features(check, drop1, drop2, thresh):
