@@ -1,0 +1,37 @@
+# data overzicht 
+
+feature type    |    structures   |     modality    |   feature   
+                |                 | 	        	|
+Volume          |       ET        |                 |   abs
+                |       NET       |                 |   ratio's
+                |       ED        |                 |
+                |       TC        |                 |
+                |       WT        |                 |
+                |                 |                 |
+Intensity       |       ET        |       T1        |   mean
+                |       NET       |       T2        |   std
+                |       ED        |       T1gd      |
+                |                 |       FLAIR     |
+                |                 |                 |
+                |                 |                 |
+Histogram       |       ET        |       T1        |   bin 1
+                |       NET       |       T2        |   bin 2
+                |       ED        |       T1gd      |   ...
+                |                 |       FLAIR     |   bin 10
+                |                 |                 |
+                |                 |                 |
+Shape           |       ET        |                 |   eccentricity
+                |       NET       |                 |   solidity
+                |       ED        |                 |   
+                |                 |                 |   (spatial)
+                |                 |                 |
+Texture         |       ET        |       T1        |   Global
+                |       NET       |       T2        |   GLCM
+                |       ED        |       T1gd      |   GLRLM
+                |                 |                 |   GLSZM
+                |                 |                 |   NGDTM
+                |                 |                 |
+TGM             |       Tumor1    |                 |   Volume
+                |       Tumor2    |                 |   X diameter
+                |       ...       |                 |   Y diameter
+                |       Tumor6    |                 |   Z diameter
